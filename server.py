@@ -15,7 +15,7 @@ class CashRegister:
     
   def addItems(self,price): #keeps track of total number of items in cart
     self.price += price
-    self.items += 1)
+    self.items += 1
     
   def getTotal(self):  #returns total price
     return self.price
